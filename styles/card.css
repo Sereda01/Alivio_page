@@ -14,6 +14,7 @@
     flex-direction: column;
     justify-content: end;
     gap: 60px;
+    
    
    
 }
@@ -46,18 +47,24 @@
     object-fit: cover;
     border-radius: 12px;
     aspect-ratio: auto 65/82;
+    
+    
 }
 .card__img-wrapper {
+   
     width:390px ;
     height: 492px;
     position: relative;
+    object-fit: cover;
    
 }
 .card__img55 {
+   
     width:185px ;
     height: 144px;
     position:absolute;
     inset: 225px 0 123px 205px;
+    object-fit: cover;
 }
 .card__title--right {
      align-self: end;
@@ -76,6 +83,7 @@
         height: 700px;
         margin: 100px 0;
     }
+   
     .card__title {
         font-size: 22px;
     }
